@@ -30,6 +30,3 @@
                                           .-'_|._  `"""       \
                                          , -'    .          __/
                                          "------------""""""
-
-
-![](https://cdn.sparkfun.com/r/500-500/assets/home_page_posts/2/1/2/1/ascii_table_black.png)
