@@ -37,8 +37,7 @@ for symbol in message:
         elif mode == 'decrypt':
             num = num - key
 
-        # handle the wrap-around if num is larger than the length of
-        # LETTERS or less than 0
+        # выравнивание разрядной сетки исходного сообщения и алфавита
         if num >= len(LETTERS):
             num = num - len(LETTERS)
         elif num < 0:
