@@ -6,11 +6,13 @@ message = input('Пожалуйста, введите сообщение:\n')
 # message = 'This is my secret message. WEBSERVER IS DOWN!!1'   # пример
 
 # ключ
-key = input('Выберите размер ключа:\n')
+key = int(input('Выберите размер ключа:\n'))
 # key = 13  # пример
 
 # режим работы программы (расшифровка/зашифровка)
-mode = 'encrypt'  # 'encrypt' или 'decrypt'
+#mode = 'decrypt'  # 'encrypt' или 'decrypt'
+
+mode = input('Введите мод. (encrypt/decrypt)\n')
 
 # символы для шифрования
 
